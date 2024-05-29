@@ -11,3 +11,7 @@
   border: 4px solid var(--gray-600);
   outline: 2px solid var(--green-500);
 }
+
+img {
+  object-fit: cover;
+}

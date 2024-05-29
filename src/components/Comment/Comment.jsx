@@ -5,6 +5,8 @@ import styles from './Comment.module.css'
 
 export function Comment({ content, onDeleteComment }) {
   const [likeCount, setLikeCount] = useState(0)
+  const photo = localStorage.getItem('photo');
+  const name = localStorage.getItem('name');
 
   function handleDeleteComment() {
     onDeleteComment(content)
@@ -18,13 +20,13 @@ export function Comment({ content, onDeleteComment }) {
 
   return (
     <div className={styles.comment}>
-      <Avatar hasBorder={false} src="https://github.com/herculescamara.png" />
+      <Avatar hasBorder={false} src={photo} />
 
       <div className={styles.commentBox}>
         <div className={styles.commentContent}>
           <header>
             <div className={styles.authorAndTime}>
-              <strong>Hercules Camara</strong>
+              <strong>{name}</strong>
               <time title="11 de Maio às 08:13h" dateTime="2022-05-11 08:03:30">
                 Cerca de 1h atrás
               </time>
