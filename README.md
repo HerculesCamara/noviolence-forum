@@ -1,4 +1,5 @@
 # NoViolence Forum
-![34241](https://github.com/HerculesCamara/noviolence-forum/assets/39931772/259dac2a-ca88-46c7-8131-9ec462ae9b93)
+![19466](https://github.com/HerculesCamara/noviolence-forum/assets/39931772/8717a268-5c8e-4dcc-bdd6-ab9d8836800f)
+
 
 Forum to NoViolence app users.
