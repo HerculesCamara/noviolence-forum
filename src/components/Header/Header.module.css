@@ -39,6 +39,7 @@
   transition: color 0.1s, background-color 0.1s;
 
   margin-right: 32px;
+  z-index: 101;
 }
 
 .login:hover {
@@ -73,4 +74,8 @@
   background: var(--red-500);
   color: var(--white);
   cursor: pointer;
+}
+
+.LoginPopup {
+  background-color: (--red-500);
 }

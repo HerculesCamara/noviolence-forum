@@ -53,4 +53,5 @@ export const PublishBtt = styled.button`
 
 export const PostsWrapper = styled.div`
   padding-bottom: 1rem;
+  padding-top: 1rem;
 `

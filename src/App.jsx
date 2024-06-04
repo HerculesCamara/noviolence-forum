@@ -11,7 +11,7 @@ const post = [
   {
     id: 1,
     author: {
-      avatarUrl: 'https://private-user-images.githubusercontent.com/39931772/334976557-8717a268-5c8e-4dcc-bdd6-ab9d8836800f.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTcwMjA2MTgsIm5iZiI6MTcxNzAyMDMxOCwicGF0aCI6Ii8zOTkzMTc3Mi8zMzQ5NzY1NTctODcxN2EyNjgtNWM4ZS00ZGNjLWJkZDYtYWI5ZDg4MzY4MDBmLmpwZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA1MjklMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNTI5VDIyMDUxOFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWM1ZDEwN2Y3YWQ4ODA2NzQ1ZjcwZjdlOGViODQ0NzFlODVmY2VkMWVkZDVhNmQzYjFkZjFjNmFjYzQ3ZjQ2N2ImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.11Yzh7h0oki8mYspkrrd0AS5uaucXxji1WdkBMUf6qc',
+      avatarUrl: 'https://img.freepik.com/free-photo/stylish-confident-businesswoman-smiling_176420-19466.jpg?t=st=1717019469~exp=1717023069~hmac=7d252b07a9ed643458602b5d006037ebcc394c5bb4e9c35399e31577d68cde0d&w=1380',
       name: 'Joana Silva',
       role: 'Psicóloga'
     },

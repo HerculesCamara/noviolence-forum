@@ -17,6 +17,7 @@ export function Header() {
       localStorage.setItem('email', data.user.email)
       localStorage.setItem('name', data.user.displayName)
       localStorage.setItem('photo', data.user.photoURL)
+      localStorage.setItem('logged', true)
       setIsLoggedIn(true);
     })
   };
@@ -31,7 +32,7 @@ export function Header() {
   return (
     <header className={styles.header}>
       <div className={styles.midContent}>
-        <img src={igniteLogo} alt="Logotipo do Ignite" />
+        {/* <img src={igniteLogo} alt="Logotipo do Ignite" /> */}
         <strong>NoViolence Forum</strong>
       </div>
 
@@ -40,7 +41,9 @@ export function Header() {
       {isLoggedIn ? (
         <button className={styles.logout} onClick={()=> handleLogout()}>Sair</button>
       ) : (
-        <button className={styles.login} onClick={()=> handleLogin(googleProvider)}>Login</button>
+        /* <div className={LoginPopup}> */
+          <button className={styles.login} onClick={()=> handleLogin(googleProvider)}>Login</button>
+        /* </div> */
       )}
       </header>
   )
